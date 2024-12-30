@@ -4,7 +4,7 @@ docker rm -f jenkins
 
 docker run -d --name jenkins \
 --restart always \
---dns 172.16.0.200 \
+--dns 172.16.0.100 \
 -p 8080:8080 \
 -p 50000:50000 \
 -v jenkins_home:/var/jenkins_home \

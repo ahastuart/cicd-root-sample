@@ -4,7 +4,7 @@ services:
     restart: always
     hostname: 'mygitlab.com'
     container_name: gitlab
-    dns: 172.16.0.200
+    dns: 172.16.0.100
     environment:
       GITLAB_ROOT_PASSWORD: P@ssw0rd
       GITLAB_OMNIBUS_CONFIG: |
